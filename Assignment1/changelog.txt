@@ -1,0 +1,17 @@
+IglooScore1.java:
+	- Added a conditional in main that checked to make sure each
+	input was between 0 and 50 inclusive (same statement
+	that is used in IglooScore2.java).
+	- Fixed overallScore() so that s ended up being the min
+	value between the three inputs. Before, s ended up being
+	the max value between the three inputs, which meant the
+	program was summing the two smallest values.
+
+IglooScore2.java:
+	- Fixed a bug in overallScore() where the first statement
+	assigned one of the scores to be the min value between the
+	three inputs.
+	- Added conditionals that checked for cases where some or
+	all inputs were the same.
+	- Took out the args==null condition in the first if statement
+	of the main function because it was impossible to reach.
